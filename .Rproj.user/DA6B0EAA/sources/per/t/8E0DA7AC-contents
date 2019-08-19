@@ -1,0 +1,18 @@
+# from R
+# This will fire up a browser with the app in it.  Interact with the app as you
+# think a user would.  This gets recorded and is re-run for each of the workers
+# in the shinycannon step.
+# url <- 'https://simpleepashiny.app.cloud.gov/'
+#url <- "https://cyan.app.cloud.gov/"
+url <- "http://edap-rshiny.rtpnc.epa.gov:3838/cyanuric/"
+
+shinyloadtest::record_session(url)
+
+# from command line
+#java -jar shinycannon-1.0.0-b267bad.jar recording.log 'http://edap-rshiny.rtpnc.epa.gov:3838/cyanuric/' --workers 10 --loaded-duration-minutes 5 --output-dir cyan_run4_edap
+
+# from R
+df <- shinyloadtest::load_runs("10 workers - 5 minutes" = "./cyan_run4")
+shinyloadtest::shinyloadtest_report(df, "cyan_run4.html")
+df <- shinyloadtest::load_runs("10 workers - 5 minutes" = "./cyan_run4_edap")
+shinyloadtest::shinyloadtest_report(df, "cyan_run4_edap.html")

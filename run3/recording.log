@@ -1,0 +1,41 @@
+# version: 1.0.0
+# target: https://simpleepashiny.app.cloud.gov/
+{"type":"REQ_HOME","begin":"2019-04-23T19:32:56.560Z","end":"2019-04-23T19:32:56.749Z","status":200,"url":"/"}
+{"type":"REQ_GET","begin":"2019-04-23T19:32:56.849Z","end":"2019-04-23T19:32:57.029Z","status":200,"url":"/shared/json2-min.js"}
+{"type":"REQ_GET","begin":"2019-04-23T19:32:57.037Z","end":"2019-04-23T19:32:57.230Z","status":200,"url":"/shared/jquery.min.js"}
+{"type":"REQ_GET","begin":"2019-04-23T19:32:57.237Z","end":"2019-04-23T19:32:57.439Z","status":200,"url":"/shared/shiny.css"}
+{"type":"REQ_GET","begin":"2019-04-23T19:32:57.447Z","end":"2019-04-23T19:32:57.679Z","status":200,"url":"/shared/shiny.min.js"}
+{"type":"REQ_GET","begin":"2019-04-23T19:32:57.684Z","end":"2019-04-23T19:32:57.905Z","status":200,"url":"/shared/bootstrap/css/bootstrap.min.css"}
+{"type":"REQ_GET","begin":"2019-04-23T19:32:57.911Z","end":"2019-04-23T19:32:58.087Z","status":200,"url":"/shared/bootstrap/js/bootstrap.min.js"}
+{"type":"REQ_GET","begin":"2019-04-23T19:32:58.094Z","end":"2019-04-23T19:32:58.272Z","status":200,"url":"/style.css"}
+{"type":"REQ_GET","begin":"2019-04-23T19:32:58.278Z","end":"2019-04-23T19:32:58.506Z","status":200,"url":"/shared/bootstrap/shim/html5shiv.min.js"}
+{"type":"REQ_GET","begin":"2019-04-23T19:32:58.511Z","end":"2019-04-23T19:32:58.794Z","status":200,"url":"/shared/bootstrap/shim/respond.min.js"}
+{"type":"WS_OPEN","begin":"2019-04-23T19:32:59.135Z","url":"/websocket/"}
+{"type":"WS_SEND","begin":"2019-04-23T19:32:59.142Z","message":"{\"method\":\"init\",\"data\":{\"praise:shiny.action\":0,\"mobile-nav-toggle\":true,\".clientdata_output_bigpraise_hidden\":false,\".clientdata_pixelratio\":1,\".clientdata_url_protocol\":\"http:\",\".clientdata_url_hostname\":\"127.0.0.1\",\".clientdata_url_port\":\"8600\",\".clientdata_url_pathname\":\"/\",\".clientdata_url_search\":\"\",\".clientdata_url_hash_initial\":\"\",\".clientdata_url_hash\":\"\",\".clientdata_singletons\":\"\",\".clientdata_allowDataUriScheme\":true}}"}
+{"type":"WS_RECV_INIT","begin":"2019-04-23T19:33:00.113Z","message":"{\"config\":{\"workerId\":\"\",\"sessionId\":\"${SESSION}\",\"user\":null}}"}
+{"type":"WS_RECV","begin":"2019-04-23T19:33:00.570Z","message":"{\"errors\":{\"bigpraise\":{\"message\":\"\",\"call\":\"NULL\",\"type\":[\"shiny.silent.error\",\"validation\"]}},\"values\":[],\"inputMessages\":[]}"}
+{"type":"WS_SEND","begin":"2019-04-23T19:33:03.481Z","message":"{\"method\":\"update\",\"data\":{\"praise:shiny.action\":1}}"}
+{"type":"WS_RECV","begin":"2019-04-23T19:33:03.782Z","message":"{\"errors\":[],\"values\":{\"bigpraise\":\"You are super-excellent!\"},\"inputMessages\":[]}"}
+{"type":"WS_SEND","begin":"2019-04-23T19:33:06.130Z","message":"{\"method\":\"update\",\"data\":{\"praise:shiny.action\":2}}"}
+{"type":"WS_RECV","begin":"2019-04-23T19:33:06.431Z","message":"{\"errors\":[],\"values\":{\"bigpraise\":\"You are priceless!\"},\"inputMessages\":[]}"}
+{"type":"WS_SEND","begin":"2019-04-23T19:33:09.543Z","message":"{\"method\":\"update\",\"data\":{\"praise:shiny.action\":3}}"}
+{"type":"WS_RECV","begin":"2019-04-23T19:33:09.832Z","message":"{\"errors\":[],\"values\":{\"bigpraise\":\"You are tremendous!\"},\"inputMessages\":[]}"}
+{"type":"WS_SEND","begin":"2019-04-23T19:33:11.957Z","message":"{\"method\":\"update\",\"data\":{\"praise:shiny.action\":4}}"}
+{"type":"WS_RECV","begin":"2019-04-23T19:33:12.276Z","message":"{\"errors\":[],\"values\":{\"bigpraise\":\"You are world-class!\"},\"inputMessages\":[]}"}
+{"type":"WS_SEND","begin":"2019-04-23T19:33:14.582Z","message":"{\"method\":\"update\",\"data\":{\"praise:shiny.action\":5}}"}
+{"type":"WS_RECV","begin":"2019-04-23T19:33:14.961Z","message":"{\"errors\":[],\"values\":{\"bigpraise\":\"You are fine!\"},\"inputMessages\":[]}"}
+{"type":"WS_SEND","begin":"2019-04-23T19:33:17.556Z","message":"{\"method\":\"update\",\"data\":{\"praise:shiny.action\":6}}"}
+{"type":"WS_RECV","begin":"2019-04-23T19:33:17.918Z","message":"{\"errors\":[],\"values\":{\"bigpraise\":\"You are sensational!\"},\"inputMessages\":[]}"}
+{"type":"WS_SEND","begin":"2019-04-23T19:33:20.722Z","message":"{\"method\":\"update\",\"data\":{\"praise:shiny.action\":7}}"}
+{"type":"WS_RECV","begin":"2019-04-23T19:33:21.092Z","message":"{\"errors\":[],\"values\":{\"bigpraise\":\"You are doozie!\"},\"inputMessages\":[]}"}
+{"type":"WS_SEND","begin":"2019-04-23T19:33:21.574Z","message":"{\"method\":\"update\",\"data\":{\"praise:shiny.action\":8}}"}
+{"type":"WS_RECV","begin":"2019-04-23T19:33:21.932Z","message":"{\"errors\":[],\"values\":{\"bigpraise\":\"You are marvelous!\"},\"inputMessages\":[]}"}
+{"type":"WS_SEND","begin":"2019-04-23T19:33:22.373Z","message":"{\"method\":\"update\",\"data\":{\"praise:shiny.action\":9}}"}
+{"type":"WS_RECV","begin":"2019-04-23T19:33:22.672Z","message":"{\"errors\":[],\"values\":{\"bigpraise\":\"You are solid!\"},\"inputMessages\":[]}"}
+{"type":"WS_SEND","begin":"2019-04-23T19:33:23.256Z","message":"{\"method\":\"update\",\"data\":{\"praise:shiny.action\":10}}"}
+{"type":"WS_RECV","begin":"2019-04-23T19:33:23.655Z","message":"{\"errors\":[],\"values\":{\"bigpraise\":\"You are tiptop!\"},\"inputMessages\":[]}"}
+{"type":"WS_SEND","begin":"2019-04-23T19:33:25.454Z","message":"{\"method\":\"update\",\"data\":{\"praise:shiny.action\":11}}"}
+{"type":"WS_RECV","begin":"2019-04-23T19:33:25.875Z","message":"{\"errors\":[],\"values\":{\"bigpraise\":\"You are solid!\"},\"inputMessages\":[]}"}
+{"type":"WS_SEND","begin":"2019-04-23T19:33:26.387Z","message":"{\"method\":\"update\",\"data\":{\"praise:shiny.action\":12}}"}
+{"type":"WS_RECV","begin":"2019-04-23T19:33:26.794Z","message":"{\"errors\":[],\"values\":{\"bigpraise\":\"You are mind-blowing!\"},\"inputMessages\":[]}"}
+{"type":"WS_CLOSE","begin":"2019-04-23T19:33:29.209Z"}

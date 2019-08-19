@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556111683997.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "617727739",
+    "id" : "92AC338E",
+    "lastKnownWriteTime" : 1544729570,
+    "last_content_update" : 1544729570,
+    "path" : "C:/Users/JHollist/OneDrive - Environmental Protection Agency (EPA)/projects/cloud_gov_shiny/Chlorine_Breakpoint_Curve_Simulator/app.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "571,46",
+        "scrollLine" : "566"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

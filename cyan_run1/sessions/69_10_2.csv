@@ -1,0 +1,19 @@
+# https://cyan.app.cloud.gov/ --workers 50 --loaded-duration-minutes 10 --output-dir cyan_run1
+# {"appUrl":"https://cyan.app.cloud.gov/","debugLog":false,"loadedDurationMinutes":10.0,"logLevel":"WARN","outputDir":"cyan_run1","overwriteOutput":false,"recordingPath":"recording.log","workers":50}
+session_id,worker_id,iteration,event,timestamp,input_line_number,comment
+69,10,2,PLAYER_SESSION_CREATE,1556110428016,0,
+69,10,2,REQ_HOME_START,1556110428016,3,
+69,10,2,REQ_HOME_END,1556110472203,3,
+69,10,2,REQ_GET_START,1556110472203,4,
+69,10,2,REQ_GET_END,1556110513129,4,
+69,10,2,REQ_GET_START,1556110513129,5,
+69,10,2,REQ_GET_END,1556110534055,5,
+69,10,2,REQ_GET_START,1556110534055,6,
+69,10,2,REQ_GET_END,1556110575004,6,
+69,10,2,REQ_GET_START,1556110575004,7,
+69,10,2,REQ_GET_END,1556110628565,7,
+69,10,2,REQ_GET_START,1556110628565,8,
+69,10,2,REQ_GET_END,1556110680226,8,
+69,10,2,REQ_GET_START,1556110680226,9,
+69,10,2,REQ_GET_END,1556110734061,9,
+69,10,2,REQ_GET_START,1556110734061,10,
